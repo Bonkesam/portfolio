@@ -3,7 +3,7 @@ import { AiFillLinkedin, AiFillTwitterCircle } from 'react-icons/ai';
 import { BsGithub } from 'react-icons/bs';
 import { MdEmail } from 'react-icons/md';
 import Container from './Container';
-
+import Image from 'next/image';
 const Welcome = () => {
   return (
     <Container>
@@ -26,7 +26,8 @@ const Welcome = () => {
       <div >
         <div className="bg-transparent bg-opacity-35 shadow-md border-1 border-none rounded-lg h-full">
 
-          <img src="/images/bonke.png" alt="Bonke" className="w-full h-full object-cover" />
+        <Image src="/images/bonke.png" alt="Bonke" className="w-full h-full object-cover" />
+
 
         </div>
 
