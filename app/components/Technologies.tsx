@@ -29,7 +29,7 @@ const Technologies = () => {
   return (
     <div className="flex flex-row gap-3">
       {rows.map((row, rowIndex) => (
-        <div key={rowIndex} className="flex flex-col object-cover">
+        <div key={rowIndex} className="flex flex-col object-cover w-full h-full">
           {row.map((image, imageIndex) => (
             <Image key={imageIndex} src={image.src} alt={image.alt} width={100} height={100} />
           ))}
