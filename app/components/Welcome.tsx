@@ -17,7 +17,7 @@ const Welcome = () => {
             FullStack Software Engineer
           </h1>
 
-          <p className="text-center text-secondary text-sm xl:text-xl text-white p-10 leading-1.5" >
+          <p className="text-center text-md xl:text-xl text-white p-10 leading-1.5" >
 
             I&apos;m a fullstack software engineer with a passion for creating beautiful and functional applications. I focus on clean code and attention to detail to deliver high-quality software that meets the needs of users and clients.
           </p>
@@ -58,7 +58,7 @@ const Welcome = () => {
       </a>
     </div>
 
-    <hr className="xl:p-5 p-3 text-white text-xl border-1" />
+    <hr className="xl:p-5 p-0 text-white text-xl border-1" />
 
 
   </Container>
