@@ -23,10 +23,10 @@ const Welcome = () => {
           </p>
         </div>
       </div>
-      <div className=" md:overflow-hidden p-28">
-        <div className="bg-transparent bg-opacity-35 shadow-md border-1 border-none  rounded-lg h-full">
+      <div >
+        <div className="bg-transparent bg-opacity-35 shadow-md border-1 border-none rounded-lg h-full">
 
-          <img src="/images/bonke.png" alt="Bonke" />
+          <img src="/images/bonke.png" alt="Bonke" className="w-full h-full object-cover" />
 
         </div>
 

@@ -19,8 +19,7 @@ export default function Home() {
         <Welcome />
         <Projects />
         <Skills />
-        <Footer />
-
+        
       </div>
     </ClientOnly>
 

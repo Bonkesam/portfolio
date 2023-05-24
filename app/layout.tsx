@@ -3,6 +3,7 @@ import { Nunito } from 'next/font/google';
 import './globals.css'
 import Navbar from './components/navbar/Navbar';
 import ClientOnly from './components/ClientOnly';
+import Footer from './components/Footer';
 
 
 export const metadata = {
@@ -27,7 +28,8 @@ export default function RootLayout({
         </ClientOnly>
         <div>
           {children}
-        </div>  
+        </div>
+        <Footer />  
         </body>
     </html>
   )
