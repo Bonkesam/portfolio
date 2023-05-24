@@ -21,20 +21,21 @@ const Projects = () => {
                           2xl:grid-cols-3 
                           gap-5
                           relative'>
+                <a  href='https://watchflix-iota.vercel.app/' >       
+                  <Card
+                    image='/images/netflix.jpg'
+                    label="Netflix clone"
+                    content="I built a Netflix clone using Next.js, MongoDB, Prisma, and Next Auth. The clone includes user authentication, browsing, search, and responsive design. This project showcases my skills in full-stack web development and database design."
+                  />
+                </a>  
 
-                <Card
-                  image='/images/netflix.jpg'
-                  label="Netflix clone"
-                  content="I built a Netflix clone using Next.js, MongoDB, Prisma, and Next Auth. The clone includes user authentication, browsing, search, and responsive design. This project showcases my skills in full-stack web development and database design."
-                />
-
-
-                <Card
-                  image='/images/bnb.jpg'
-                  label="Airbnb clone"
-                  content="Using cutting-edge technologies such as Next.js, Typescript, MongoDB, Prisma, and Next Auth, I built an exceptional Airbnb clone that delivers the best user experience possible. I demonstrated my ability to create complex applications with ease and to implement security features such as authentication and database management flawlessly."
-                />
-
+                <a href='https://air-rent.vercel.app/'>
+                  <Card
+                    image='/images/bnb.jpg'
+                    label="Airbnb clone"
+                    content="Using cutting-edge technologies such as Next.js, Typescript, MongoDB, Prisma, and Next Auth, I built an exceptional Airbnb clone that delivers the best user experience possible. I demonstrated my ability to create complex applications with ease and to implement security features such as authentication and database management flawlessly."
+                  />
+                </a>
 
                 <Card
                   image='/images/bonke.png'

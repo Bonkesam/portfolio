@@ -25,11 +25,14 @@ export default function RootLayout({
       <body className={font.className}>
         <ClientOnly>
             <Navbar />
+            {children}
+            
         </ClientOnly>
         <div>
-          {children}
+          
+          
         </div>
-        <Footer />  
+          
         </body>
     </html>
   )
