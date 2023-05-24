@@ -21,6 +21,7 @@ const Projects = () => {
                           2xl:grid-cols-3 
                           gap-5
                           relative'>
+                            
                 <a  href='https://watchflix-iota.vercel.app/' >       
                   <Card
                     image='/images/netflix.jpg'

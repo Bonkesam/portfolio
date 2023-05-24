@@ -33,11 +33,11 @@ const Card: React.FC<CardProps> = ({
             <div className="text-left xl:text-md text-md text-bold text-custom-600 p-3">
                 {label}
             </div>
-               <div>
-                    <p className="text-left xl:text-md text-sm text-white p-5">
-                        {content}
-                    </p>
-                </div>
+            <div>
+                <p className="text-left xl:text-md text-sm text-white p-5">
+                    {content}
+                </p>
+            </div>
                             
             </div>
 
