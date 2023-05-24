@@ -9,7 +9,7 @@ const Projects = () => {
           <div className="bg-transparent bg-opacity-35 shadow-md border-1 border-none  rounded-lg p-4">
             <div className="z-index-0">
 
-              <h1 className=" text-3xl xl:text-6xl text-center text-white pb-3 md:pt-2 pt-4 md:pb-0">
+              <h1 className=" text-3xl xl:text-6xl text-center text-white pb-1 xl:pb-3 xl:pt-2 pt-2 xl:pt-4 ">
                 My Projects
               </h1>
 

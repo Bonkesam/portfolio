@@ -11,13 +11,13 @@ const Welcome = () => {
       <div className=" pt-28 ">
         <div className="bg-transparent bg-opacity-35 shadow-md  border-1 border-none  rounded-lg h-full p-4">
           <h1 className="text-4xl xl:text-[65px] text-center text-white  pb-10 pt-15">
-            Hi, I&apos;m <span className="text-custom-600">Bonke Sam</span>
+            Hi, I&apos;m <span className="text-custom-600 font-bold">Bonke Sam</span>
           </h1>
           <h1 className=" text-2xl xl:text-5xl  text-bold text-custom-600 text-center pb-2">
             FullStack Software Engineer
           </h1>
 
-          <p className="text-center text-md xl:text-xl text-white p-10 leading-1.5" >
+          <p className="text-center text-md xl:text-xl text-white pt-10 px-4 pb-10 leading-1.5" >
 
             I&apos;m a fullstack software engineer with a passion for creating beautiful and functional applications. I focus on clean code and attention to detail to deliver high-quality software that meets the needs of users and clients.
           </p>

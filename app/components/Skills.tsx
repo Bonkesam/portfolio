@@ -23,7 +23,7 @@ const Skills = () => {
                           border-white'>
 
               <div className="border-3 border-white rounded-lg">
-                <h2 className="text-white text-xl xl:text-2xl text-center font-semibold">
+                <h2 className="text-white text-xl xl:text-2xl text-center font-semibold pb-2">
                   Soft Skills
                 </h2>
                 <div className="flex flex-row text-white text-sm xl:text-md p-2">
@@ -55,7 +55,7 @@ const Skills = () => {
               </div>
 
               <div className="border-1 border-white rounded-lg">
-                <h2 className="text-white text-xl xl:text-2xl text-center">
+                <h2 className="text-white text-xl xl:text-2xl text-center pb-2">
                   Technical Skills
                 </h2>
                 <Technologies />                
